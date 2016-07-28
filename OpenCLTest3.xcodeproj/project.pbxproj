@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077202E41D4884CB00CA4C33 /* ClHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077202E21D4884CB00CA4C33 /* ClHelper.cpp */; };
+		077202E71D48851700CA4C33 /* VdcMapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077202E51D48851700CA4C33 /* VdcMapper.cpp */; };
+		077202E91D48B73000CA4C33 /* calc.cl in Sources */ = {isa = PBXBuildFile; fileRef = 077202E81D48B72F00CA4C33 /* calc.cl */; };
+		07B89A791D3F35EE00C1DDE4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B89A781D3F35EE00C1DDE4 /* main.cpp */; };
+		07B89A801D3F361300C1DDE4 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B89A7F1D3F361300C1DDE4 /* OpenCL.framework */; };
+		07B89A841D3F5A9000C1DDE4 /* Bitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B89A821D3F5A9000C1DDE4 /* Bitmap.cpp */; };
+		48F7ED461D486E4F00737DEC /* Mandelbrot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48F7ED441D486E4F00737DEC /* Mandelbrot.cpp */; };
+		48F7ED491D486E7300737DEC /* ColorTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48F7ED471D486E7300737DEC /* ColorTable.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07B89A731D3F35EE00C1DDE4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		077202E21D4884CB00CA4C33 /* ClHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClHelper.cpp; sourceTree = "<group>"; };
+		077202E31D4884CB00CA4C33 /* ClHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClHelper.h; sourceTree = "<group>"; };
+		077202E51D48851700CA4C33 /* VdcMapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VdcMapper.cpp; sourceTree = "<group>"; };
+		077202E61D48851700CA4C33 /* VdcMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VdcMapper.h; sourceTree = "<group>"; };
+		077202E81D48B72F00CA4C33 /* calc.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = calc.cl; sourceTree = "<group>"; };
+		07B89A751D3F35EE00C1DDE4 /* OpenCLTest3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCLTest3; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B89A781D3F35EE00C1DDE4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		07B89A7F1D3F361300C1DDE4 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		07B89A811D3F364300C1DDE4 /* bitmapspec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bitmapspec.h; sourceTree = "<group>"; };
+		07B89A821D3F5A9000C1DDE4 /* Bitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bitmap.cpp; sourceTree = "<group>"; };
+		07B89A831D3F5A9000C1DDE4 /* Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bitmap.h; sourceTree = "<group>"; };
+		07B89A851D3F621000C1DDE4 /* MyError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyError.h; sourceTree = "<group>"; };
+		48F7ED441D486E4F00737DEC /* Mandelbrot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mandelbrot.cpp; sourceTree = "<group>"; };
+		48F7ED451D486E4F00737DEC /* Mandelbrot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mandelbrot.h; sourceTree = "<group>"; };
+		48F7ED471D486E7300737DEC /* ColorTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColorTable.cpp; sourceTree = "<group>"; };
+		48F7ED481D486E7300737DEC /* ColorTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTable.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B89A721D3F35EE00C1DDE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B89A801D3F361300C1DDE4 /* OpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B89A6C1D3F35EE00C1DDE4 = {
+			isa = PBXGroup;
+			children = (
+				07B89A7F1D3F361300C1DDE4 /* OpenCL.framework */,
+				07B89A771D3F35EE00C1DDE4 /* OpenCLTest3 */,
+				07B89A761D3F35EE00C1DDE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07B89A761D3F35EE00C1DDE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B89A751D3F35EE00C1DDE4 /* OpenCLTest3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07B89A771D3F35EE00C1DDE4 /* OpenCLTest3 */ = {
+			isa = PBXGroup;
+			children = (
+				07B89A781D3F35EE00C1DDE4 /* main.cpp */,
+				48F7ED471D486E7300737DEC /* ColorTable.cpp */,
+				48F7ED481D486E7300737DEC /* ColorTable.h */,
+				48F7ED441D486E4F00737DEC /* Mandelbrot.cpp */,
+				077202E51D48851700CA4C33 /* VdcMapper.cpp */,
+				077202E61D48851700CA4C33 /* VdcMapper.h */,
+				077202E81D48B72F00CA4C33 /* calc.cl */,
+				077202E21D4884CB00CA4C33 /* ClHelper.cpp */,
+				077202E31D4884CB00CA4C33 /* ClHelper.h */,
+				48F7ED451D486E4F00737DEC /* Mandelbrot.h */,
+				07B89A811D3F364300C1DDE4 /* bitmapspec.h */,
+				07B89A821D3F5A9000C1DDE4 /* Bitmap.cpp */,
+				07B89A851D3F621000C1DDE4 /* MyError.h */,
+				07B89A831D3F5A9000C1DDE4 /* Bitmap.h */,
+			);
+			path = OpenCLTest3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07B89A741D3F35EE00C1DDE4 /* OpenCLTest3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B89A7C1D3F35EE00C1DDE4 /* Build configuration list for PBXNativeTarget "OpenCLTest3" */;
+			buildPhases = (
+				07B89A711D3F35EE00C1DDE4 /* Sources */,
+				07B89A721D3F35EE00C1DDE4 /* Frameworks */,
+				07B89A731D3F35EE00C1DDE4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCLTest3;
+			productName = OpenCLTest3;
+			productReference = 07B89A751D3F35EE00C1DDE4 /* OpenCLTest3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07B89A6D1D3F35EE00C1DDE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Motoya;
+				TargetAttributes = {
+					07B89A741D3F35EE00C1DDE4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 07B89A701D3F35EE00C1DDE4 /* Build configuration list for PBXProject "OpenCLTest3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07B89A6C1D3F35EE00C1DDE4;
+			productRefGroup = 07B89A761D3F35EE00C1DDE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B89A741D3F35EE00C1DDE4 /* OpenCLTest3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B89A711D3F35EE00C1DDE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077202E71D48851700CA4C33 /* VdcMapper.cpp in Sources */,
+				48F7ED461D486E4F00737DEC /* Mandelbrot.cpp in Sources */,
+				07B89A841D3F5A9000C1DDE4 /* Bitmap.cpp in Sources */,
+				077202E41D4884CB00CA4C33 /* ClHelper.cpp in Sources */,
+				077202E91D48B73000CA4C33 /* calc.cl in Sources */,
+				48F7ED491D486E7300737DEC /* ColorTable.cpp in Sources */,
+				07B89A791D3F35EE00C1DDE4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07B89A7A1D3F35EE00C1DDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07B89A7B1D3F35EE00C1DDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07B89A7D1D3F35EE00C1DDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07B89A7E1D3F35EE00C1DDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B89A701D3F35EE00C1DDE4 /* Build configuration list for PBXProject "OpenCLTest3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B89A7A1D3F35EE00C1DDE4 /* Debug */,
+				07B89A7B1D3F35EE00C1DDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B89A7C1D3F35EE00C1DDE4 /* Build configuration list for PBXNativeTarget "OpenCLTest3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B89A7D1D3F35EE00C1DDE4 /* Debug */,
+				07B89A7E1D3F35EE00C1DDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07B89A6D1D3F35EE00C1DDE4 /* Project object */;
+}
